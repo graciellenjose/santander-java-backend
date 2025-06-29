@@ -2,7 +2,7 @@ package dio.exercicios.basicos;
 
 import java.util.Scanner;
 
-public class TerceiroExercicio {
+public class AreaRetangulo {
     public static void main(String[] args){
         /*3. Escreva um código que receba a base e a altura de um retângulo,
         * calcule sua área e exiba na tela.

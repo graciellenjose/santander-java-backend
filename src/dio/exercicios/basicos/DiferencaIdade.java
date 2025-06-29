@@ -2,7 +2,7 @@ package dio.exercicios.basicos;
 
 import java.util.Scanner;
 
-public class QuartoExercicio {
+public class DiferencaIdade {
     public static void main(String[] args){
         /*4. Escreva um código que receba o nome e a idade de 2 pessoas
         * e imprima a diferença de idade entre elas.*/

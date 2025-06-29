@@ -2,7 +2,7 @@ package dio.exercicios.basicos;
 
 import java.util.Scanner;
 
-public class SegundoExercicio {
+public class AreaQuadrado {
     public static void main(String[] args){
         /*2. Escreva um código qe receba o tamanho do lado de um quadrado,
         * calcule sua área e exiba na tela.
