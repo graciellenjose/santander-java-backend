@@ -7,13 +7,14 @@ public class Saudacoes {
         /*Escreva um código que receba o nome e o ano de nascimento de alguém
          * e imprima na tela a seguinte mensagem: Olá {nome} você tem {idade}
          * anos.*/
+
+        Scanner scanner = new Scanner(System.in);
+
         System.out.println("Informe seu nome");
-        Scanner getName = new Scanner(System.in);
-        var name = getName.next();
+        var name = scanner.next();
 
         System.out.println("Informe sua idade");
-        Scanner getAge = new Scanner(System.in);
-        var age = getAge.nextInt();
+        var age = scanner.nextInt();
 
         System.out.printf("Olá, %s! Você tem %s anos", name, age);
 

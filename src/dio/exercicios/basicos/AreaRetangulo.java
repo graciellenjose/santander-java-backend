@@ -8,13 +8,13 @@ public class AreaRetangulo {
         * calcule sua área e exiba na tela.
         * fórmula: área = base x altura*/
 
+        Scanner scanner = new Scanner(System.in);
+
         System.out.println("Informe a base do retângulo:");
-        Scanner getBase = new Scanner(System.in);
-        var base = getBase.nextDouble();
+        var base = scanner.nextDouble();
 
         System.out.println("Informe a altura do retângulo:");
-        Scanner getHeight = new Scanner(System.in);
-        var height = getHeight.nextDouble();
+        var height = scanner.nextDouble();
 
         var area = base * height;
 
